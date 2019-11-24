@@ -1,4 +1,4 @@
-# Título del Proyecto
+# TACHBOT
 
 _Tachbot es un e-commerce destinado a la venta de servicios chatbot_
 
@@ -18,11 +18,6 @@ Simplemente elige el entorno que más te guste
 ### Instalación 🔧
 
 _Descargar el repositorio e incluye la BBDD apropiada para el mismo y a funcionar._
-
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
 
 
 ## Versionado 📌
