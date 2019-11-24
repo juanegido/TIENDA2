@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+    - Base de datos: 'tachbot'
+    -->
+    <tachbot>
+        <!-- Tabla servicio -->
+        <servicio>
+            <nombre>CBmayor</nombre>
+            <id_servicio>1</id_servicio>
+            <precio>25</precio>
+            <descripcion>Chatbot destinado a personas mayores</descripcion>
+            <imagen>mayorBot.jpg</imagen>
+        </servicio>
+        <servicio>
+            <nombre>CBjoven</nombre>
+            <id_servicio>2</id_servicio>
+            <precio>30</precio>
+            <descripcion>Chatbot destinado a un público joven</descripcion>
+            <imagen>huevo.jpg</imagen>
+        </servicio>
+        <servicio>
+            <nombre>CBgeneral</nombre>
+            <id_servicio>3</id_servicio>
+            <precio>35</precio>
+            <descripcion>Chatbot destinado a un público general</descripcion>
+            <imagen>traductorBot.jpg</imagen>
+        </servicio>
+        <!--
+        <servicio>
+            <nombre>CB</nombre>
+            <id_servicio>4</id_servicio>
+            <precio>35</precio>
+            <descripcion>Chatbot destinado a ....</descripcion>
+            <imagen>icon.ico</imagen>
+        </servicio>
+        -->
+    </tachbot>

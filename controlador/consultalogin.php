@@ -21,10 +21,15 @@ if (isset($_POST['correo']) && isset($_POST['contrasena'])) { /* Si hay algo en 
 				$_SESSION["correo"] = $_POST["correo"]; /* Guardamos la sesion del usuario */
 				$_SESSION["id_cliente"] = $usuario_select["id_cliente"];
 				$_SESSION["ultimoAcceso"] = time();
+				$_SESSION['administrador'] = $usuario_select['administrador'];
 				if(isset($_POST['recordar'])) {
 					setcookie("correo",$_POST["correo"] , time() + 60*60*24*365);
 				}
-				header('Location: ../indexLogin.php'); /* Y nos redirigimos a home */
+				if($usuario_select['administrador']==true){
+					header('Location: ../vista/administrador.php');/* Somos admin, nos redirigimos a página de administración */
+				}else{
+					header('Location: ../indexLogin.php'); /* No somos admin, nos redirigimos a home */
+				}
 			} else {
 				header('Location: ../vista/login.php?fallo1=true'); /* Si la contraseña no esta asociada a ese usuario volvemos a intentarlo */
 			}

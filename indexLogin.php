@@ -55,7 +55,7 @@ include 'templates/cabecera.php';
                     <div class="card-body">
                         <span><?php echo $producto['nombre'];?></span>
                         <h5 class="card-title"><?php echo $producto['precio'];?>€</h5>
-                        <p class="card-text">Descripcion</p>
+                        <p class="card-text"><?php echo $producto['descripcion'];?></p>
                         <form action="" method="post">
                             <input type="hidden" name="id" id="id"
                                 value="<?php echo openssl_encrypt($producto['id_servicio'],COD,KEY);?>">
