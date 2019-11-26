@@ -28,6 +28,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 
 * **Paloma Sánchez** - *Desarrollo* - [palomasanx](https://github.com/PalomaSanx)
+* **Juan Egido** - *Desarrollo* - [juanegido](https://github.com/juanegido)
 
 
 ## Licencia 📄
